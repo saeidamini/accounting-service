@@ -9,5 +9,15 @@
       "baseName" : "webServiceInvoice",
       "endOfLine" : "lf"
     }
+  }, {
+    "module" : "infinitest-filters",
+    "date" : "2023-03-06T10:52:37.649602358Z",
+    "properties" : {
+      "packageName" : "org.play.wei",
+      "projectName" : "webServiceInvoice",
+      "indentSize" : 2,
+      "baseName" : "webServiceInvoice",
+      "endOfLine" : "lf"
+    }
   } ]
 }
