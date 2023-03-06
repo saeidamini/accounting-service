@@ -1,0 +1,13 @@
+{
+  "name": "web-service-invoice",
+  "version": "0.0.0",
+  "private": true,
+  "description": "webServiceInvoice",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.14.2"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ]
+}

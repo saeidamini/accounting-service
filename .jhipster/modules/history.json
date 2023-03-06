@@ -1,0 +1,13 @@
+{
+  "actions" : [ {
+    "module" : "init",
+    "date" : "2023-03-06T10:52:36.899273797Z",
+    "properties" : {
+      "packageName" : "org.play.wei",
+      "projectName" : "webServiceInvoice",
+      "indentSize" : 2,
+      "baseName" : "webServiceInvoice",
+      "endOfLine" : "lf"
+    }
+  } ]
+}
