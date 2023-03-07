@@ -18,6 +18,8 @@ npm install
 
 ## Local environment
 
+- [Local server](http://localhost:8080)
+
 <!-- jhipster-needle-localEnvironment -->
 
 ## Start up
@@ -33,5 +35,6 @@ npm install
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
 - [Logs spy](documentation/logs-spy.md)
+- [CORS configuration](documentation/cors-configuration.md)
 
 <!-- jhipster-needle-documentation -->

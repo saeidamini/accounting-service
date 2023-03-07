@@ -31,6 +31,7 @@
   <logger name="ch.qos.logback" level="WARN" />
   <logger name="com.sun" level="WARN" />
   <logger name="org.springframework" level="WARN" />
+  <logger name="org.springframework.web" level="ERROR" />
   <!-- jhipster-needle-logback-add-log -->
 
   <!-- https://logback.qos.ch/manual/configuration.html#shutdownHook and https://jira.qos.ch/browse/LOGBACK-1090 -->
