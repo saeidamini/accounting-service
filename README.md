@@ -1,4 +1,6 @@
-# webServiceInvoice
+# Invoice WebServices
+
+Create Invoice WebServices with JHipster Lite.
 
 ## Node.js and NPM
 
@@ -16,7 +18,6 @@ npm install
 
 ## Local environment
 
-
 <!-- jhipster-needle-localEnvironment -->
 
 ## Start up
@@ -24,7 +25,6 @@ npm install
 ```bash
 ./mvnw
 ```
-
 
 <!-- jhipster-needle-startupCommand -->
 
