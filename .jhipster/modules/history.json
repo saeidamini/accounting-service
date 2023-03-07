@@ -59,5 +59,16 @@
       "baseName" : "webServiceInvoice",
       "endOfLine" : "lf"
     }
+  }, {
+    "module" : "spring-boot",
+    "date" : "2023-03-07T14:47:00.388469530Z",
+    "properties" : {
+      "packageName" : "org.play.wsi",
+      "projectName" : "webServiceInvoice",
+      "indentSize" : 2,
+      "baseName" : "webServiceInvoice",
+      "endOfLine" : "lf",
+      "serverPort" : 8080
+    }
   } ]
 }
