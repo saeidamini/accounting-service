@@ -92,5 +92,16 @@
       "endOfLine" : "lf",
       "serverPort" : 8080
     }
+  }, {
+    "module" : "spring-boot-cucumber-mvc",
+    "date" : "2023-03-07T14:47:06.596992653Z",
+    "properties" : {
+      "packageName" : "org.play.wsi",
+      "projectName" : "webServiceInvoice",
+      "indentSize" : 2,
+      "baseName" : "webServiceInvoice",
+      "endOfLine" : "lf",
+      "serverPort" : 8080
+    }
   } ]
 }

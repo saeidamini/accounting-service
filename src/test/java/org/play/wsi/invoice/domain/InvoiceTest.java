@@ -1,4 +1,4 @@
-package org.play.wsi.invoice;
+package org.play.wsi.invoice.domain;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;

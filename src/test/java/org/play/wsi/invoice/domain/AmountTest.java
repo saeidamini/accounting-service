@@ -1,4 +1,4 @@
-package org.play.wsi.invoice;
+package org.play.wsi.invoice.domain;
 
 import java.math.BigDecimal;
 import org.assertj.core.api.Assertions;

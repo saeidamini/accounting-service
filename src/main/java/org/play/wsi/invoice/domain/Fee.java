@@ -1,6 +1,7 @@
-package org.play.wsi.invoice;
+package org.play.wsi.invoice.domain;
 
 import org.play.wsi.error.domain.Assert;
+import org.play.wsi.invoice.Quantity;
 
 public record Fee(Amount amount, Currency currency) {
   public static final Fee ZERO = new Fee(Amount.ZERO, Currency.EURO);

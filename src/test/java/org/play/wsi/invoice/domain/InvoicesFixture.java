@@ -1,7 +1,8 @@
-package org.play.wsi.invoice;
+package org.play.wsi.invoice.domain;
 
 import java.math.BigDecimal;
 import java.util.List;
+import org.play.wsi.invoice.Quantity;
 
 public final class InvoicesFixture {
 

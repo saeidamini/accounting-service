@@ -1,8 +1,9 @@
-package org.play.wsi.invoice;
+package org.play.wsi.invoice.domain;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import org.play.wsi.error.domain.Assert;
+import org.play.wsi.invoice.Quantity;
 
 public record Amount(BigDecimal amount) {
   public static final Amount ZERO = new Amount(BigDecimal.ZERO);
