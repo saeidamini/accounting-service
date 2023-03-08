@@ -1,4 +1,4 @@
-Feature: Invoice
+Feature: Invoices
   Scenario: Create and get invoice
     Given I create invoice
       | Quantity | Unit price |
