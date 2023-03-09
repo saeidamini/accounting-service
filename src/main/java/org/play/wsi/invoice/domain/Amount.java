@@ -22,4 +22,8 @@ public record Amount(BigDecimal amount) {
     Assert.notNull("other", other);
     return new Amount(amount().add(other.amount));
   }
+
+  public BigDecimal get() {
+    return amount;
+  }
 }
