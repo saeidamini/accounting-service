@@ -11,12 +11,14 @@ public class InvoiceTest {
 
   @Test
   void shouldNotBuildWithoutLines() {
-    assertThatThrownBy(() -> new Invoice(null)).isExactlyInstanceOf(MissingMandatoryValueException.class).hasMessageContaining("lines");
+    assertThatThrownBy(() -> new Invoice(null, null))
+      .isExactlyInstanceOf(MissingMandatoryValueException.class)
+      .hasMessageContaining("lines");
   }
 
   @Test
   void shouldNotBuildZeroLines() {
-    assertThatThrownBy(() -> new Invoice(List.of()))
+    assertThatThrownBy(() -> new Invoice(null, List.of()))
       .isExactlyInstanceOf(MissingMandatoryValueException.class)
       .hasMessageContaining("lines");
   }
