@@ -1,20 +1,84 @@
-# Invoice WebServices
+# Accounting Microservice
 
-Create Invoice WebServices with JHipster Lite.
+The Accounting microservice handles financial and accounting functions like invoicing, payments, and reconciliation.
 
-## Node.js and NPM
+## Overview
 
-Before you can build this project, you must install and configure the following dependencies on your machine:
+Managing finances is a key part of any business. This service provides accounting capabilities for the overall application in a decentralized manner.
 
-1. [Node.js](https://nodejs.org/): We use Node to run a development web server and build the project.
-   Depending on your system, you can install Node either from source or as a pre-packaged bundle.
+It implements functions like:
 
-After installing Node, you should be able to run the following command to install development tools.
-You will only need to run this command when dependencies change in [package.json](package.json).
+- Invoice generation
+- Payment processing 
+- Tax calculation
+- Financial reporting
+- Reconciliation 
+
+And more!
+
+## Roadmap
+
+Here is a rough 8 week roadmap to build out core capabilities:
+
+### Week 1
+
+- Generate skeleton Spring Boot scaffolding
+- Implement basic invoice generation
+- Add unit tests
+
+### Week 2
+
+- Build payment processing workflow
+- Integrate payment gateway APIs
+- Logging and monitoring
+
+### Week 3
+
+- Calculate taxes on invoices
+- Generate invoices on order completion
+
+### Week 4 
+
+- Reporting dashboard
+- Invoice reconciliation 
+
+*Mid-point Review*
+
+- Basic invoicing and payments working
+
+### Week 5
+
+- Role based access control
+- Audit logs
+- Exception handling
+
+### Week 6
+
+- Scheduled reconciliation jobs
+- Reminders and notifications
+
+### Week 7
+
+- Connect to accounting system via APIs
+- Financial data integration
+
+### Week 8
+
+- Performance testing
+- Security review
+- Documentation
+
+## Getting Started
+
+Eager to dig in? Start by cloning the repo and installing dependencies:
 
 ```
-npm install
+git clone https://github.com/saeidamini/accounting-service.git
+cd accounting-service
+mvn install
 ```
+
+Let the number crunching begin!
 
 ## Local environment
 
@@ -39,3 +103,9 @@ npm install
 - [Cucumber](documentation/cucumber.md)
 
 <!-- jhipster-needle-documentation -->
+
+## Contributions
+
+We welcome contributions! Please feel free to fix bugs, build new features, or improve documentation.
+
+Happy accounting! 👨‍💻
